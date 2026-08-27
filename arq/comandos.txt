@@ -1,0 +1,8 @@
+Cria migration de ceps onde já realizamos as entregas: 
+
+  > npm run migrations:create streets where we deliver
+
+Observação: 
+
+------------------------------
+

@@ -1,4 +1,10 @@
+import CepFound from "components/CepFounf";
+
 function Home() {
-  return "Página em construção.";
+  return (
+    <>
+      <CepFound />
+    </>
+  );
 }
 export default Home;

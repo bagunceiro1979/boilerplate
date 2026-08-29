@@ -2,7 +2,30 @@ Cria migration de ceps onde já realizamos as entregas:
 
   > npm run migrations:create streets where we deliver
 
-Observação: 
+🟢 Observação: query testada com sucesso. 
 
+Copiar: index.js do endpoint api/v1/cep
+
+Copiar o conteúdo do arq: 1787835727057_streets-where-we-deliver.js
+
+Copiar os testes dos ceps 
+
+🔴 Criar a interface para os usuários consultarem os ceps
 ------------------------------
+
+🔴 Criar migration de produtos
+
+🔴 Criar migration de categorias
+
+🔴 Criar migration de categorias
+
+🔴 Criar migration de categorias
+
+🔴 Criar migration de categorias
+
+🔴 Criar migration de categorias
+
+🔴 Criar migration de categorias
+
+
 

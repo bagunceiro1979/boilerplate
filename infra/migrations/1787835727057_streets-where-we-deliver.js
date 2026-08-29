@@ -1,5 +1,5 @@
 exports.up = async (pgm) => {
-    pgm.createTable('streets-where-we-deliver',{
+    pgm.createTable('streets_where_we_deliver',{
         id: 'id', // Atalho para { type: 'serial', primaryKey: true }
         cep: {
             type: 'varchar(9)',
@@ -23,7 +23,7 @@ exports.up = async (pgm) => {
 
 );
     pgm.sql(`
-        INSERT INTO "streets-where-we-deliver" (cep, street, neighborhood)
+        INSERT INTO "streets_where_we_deliver" (cep, street, neighborhood)
         VALUES
             ('32497-260', 'Avenida Itaguá', 'José de Sales Barbosa'),
             ('32497-288', 'Rua Américo de Sales Barbosa', 'José de Sales Barbosa'),
